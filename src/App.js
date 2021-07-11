@@ -63,7 +63,7 @@ function App() {
     <div className="container-fluid">
       {/* Nav Bar */}
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <a className="navbar-brand" href>CMP CLASSES</a>
+        <a className="navbar-brand" style={{color:"gray"}} href="/">CMP CLASSES</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span className="navbar-toggler-icon" />
         </button>
@@ -84,7 +84,7 @@ function App() {
       {/* Title */}
       <div className="row">
         <div className="col-lg-6">
-          <h1 className="big-heading">ONE STOP DESTINATION FOR CA ASPIRANTS</h1>
+          <h1 className="big-heading" style={{color:"green"}}>ONE STOP DESTINATION FOR CA ASPIRANTS</h1>
           <button type="button"  className="btn btn-dark btn-lg download-button"><i className="fab fa-apple" /><a href="https://play.google.com/store/apps/details?id=co.kevin.yatua">Download</a> </button>
           <button type="button"  className="btn btn-outline-light btn-lg download-button"><i className="fab fa-google-play" /><a href="https://play.google.com/store/apps/details?id=co.kevin.yatua"> Download</a></button>
         </div>
@@ -226,7 +226,7 @@ function App() {
 <div className="col-md-8 " >
   <div className="contact-form centre">
     <h1>Contact Us</h1>
-    <p className="hint-text">We'd love to hear from you, please drop us a line if you've any query.</p>
+    <p style={{backgroundColor:"black"}}>We'd love to hear from you, please drop us a line if you've any query.</p>
     <form  method="post">
       <div className="row">
         <div className="col-sm-6">
@@ -262,11 +262,13 @@ function App() {
   {/* Footer */}
   <footer className="white-section" id="footer">
     <div className="container-fluid">
-      <i className="social-icon fab fa-facebook-f" />
-      <i className="social-icon fab fa-twitter" />
-      <i className="social-icon fab fa-instagram" />
-      <i className="social-icon fas fa-envelope" />
-      <p>© Copyright CMP INSTITUTE KISHANGARH ,RAJASTHAN</p>
+      <a href="https://www.facebook.com/vaibhav.patnj" ><i className="social-icon fab fa-facebook-f" /></a>
+      <a href="/"><i className="social-icon fab fa-twitter" /></a>
+      <a href="https://www.instagram.com/vaibhav_cmppi/" ><i className="social-icon fab fa-instagram" /></a>
+      <a href="	cmppi2019@gmail.com"><i  className="social-icon fas fa-envelope" /></a>
+      <p>© Copyright CMP Institute kishangarh, Rajasthan,India</p>
+      
+
     </div>
   </footer>
 </div>
