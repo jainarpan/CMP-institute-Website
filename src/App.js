@@ -10,14 +10,6 @@ import axios from './utils/axios';
 
 
 
-
-
-
-
-
-
-
-
 function App() {
 
 
@@ -71,7 +63,7 @@ function App() {
     <div className="container-fluid">
       {/* Nav Bar */}
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <a className="navbar-brand" href>CMP INSTITUTE</a>
+        <a className="navbar-brand" href>CMP CLASSES</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span className="navbar-toggler-icon" />
         </button>
@@ -229,7 +221,7 @@ function App() {
   </section>
  {/* contact */}
 <div >
- <div className="contact container-xl " style={{backgroundColor:"#179b81" ,margin:"50px"}}>
+<div className="contact container-xl " style={{backgroundColor:"#179b81" ,margin:"50px"}}>
 <div className="row">
 <div className="col-md-8 " >
   <div className="contact-form centre">
